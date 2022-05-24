@@ -14,13 +14,13 @@ For example, the code below creates a `Row` widget and adds `SizedBox(width: 16)
 
 ```dart
 SpacedRow(
-    spacing: 16
+    spacing: 16,
     children: [
         Text('Hello'),
         Text('World!'),
         Text(':)'),
-    ]
-)
+    ],
+);
 ```
 
 ## Contribution
