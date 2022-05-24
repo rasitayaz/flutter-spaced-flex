@@ -1,6 +1,6 @@
 name: spaced_flex
 description: A Flutter package for easily creating spaced row and column widgets
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/rasitayaz/flutter-spaced-flex
 
 environment:
