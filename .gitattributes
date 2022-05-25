@@ -1,1 +1,1 @@
-*.* linguist-language=Dart
+*.cpp linguist-detectable=false
