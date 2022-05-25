@@ -2,6 +2,7 @@
 
 * Added `SpacedFlex` widget that can be a `Row` or a `Column` depending on its `direction` property.
 * Added `reversed` property to easily reverse the order of the children.
+* Added an example project.
 
 ## 0.0.2
 
