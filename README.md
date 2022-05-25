@@ -23,6 +23,21 @@ SpacedRow(
 );
 ```
 
+You can also use `SpacedFlex` widget to easily switch between `Row` and `Column` widgets with a simple boolean expression and reverse the display order of the children using the `reversed` property.
+
+```dart
+SpacedFlex(
+    spacing: 16,
+    direction: someExpression ? Axis.horizontal : Axis.vertical,
+    reversed: true,
+    children: [
+        Text('Hello'),
+        Text('World!'),
+        Text(':)'),
+    ],
+);
+```
+
 ## Contribution
 
 So far I couldn't think of any fancy features to add to this package but feel free to contribute or state your opinions through [the package's repository](https://github.com/rasitayaz/flutter-spaced-flex).
